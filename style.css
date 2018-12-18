@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+body {
+  background-color: #e7e7e7;
+  width: 800px;
+  margin: 100px auto;
+  font-family: "Poppins", sans-serif;
+}
+body h2 {
+  color: #100d35;
+}
+body p {
+  color: #302f3b;
+}
+
+.code-block {
+  font-family: "Nanum Gothic Coding", monospace;
+  color: #100d35;
+  background-color: #fff;
+  padding: 5px 30px;
+}
+
+.mixing {
+  display: flex;
+  justify-content: center;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: orange;
+  font-weight: bold;
+  line-height: 15px;
+}
+.mixing:hover {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */
