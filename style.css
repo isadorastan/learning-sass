@@ -33,6 +33,16 @@ body p {
   color: red;
 }
 
+.string-interpolation {
+  content: url(landscape.jpg);
+  object-fit: cover;
+  width: 60%;
+  margin: 0px auto;
+}
+.string-interpolation:hover {
+  width: 60%;
+}
+
 /*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */

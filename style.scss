@@ -18,6 +18,15 @@ $font-source-sans-properties: 22px, orange, bold, 15px;
     @if $lh { line-height: $lh; }
 }
 
+@mixin photo-content($file, $width: 80%) {
+    content: url(#{$file}.jpg); //string interpolation
+    object-fit: cover;
+
+    &:hover {
+        width: $width;
+    } 
+}
+
 body {
   background-color: #e7e7e7;
   width: 800px;
@@ -49,6 +58,12 @@ body {
     &:hover {
         color: red;
     }
+}
+
+.string-interpolation {
+    @include photo-content('landscape', 60%);
+    width: 60%;
+    margin: 0px auto; 
 }
 
 /*# sourceMappingURL=style.css.map */
